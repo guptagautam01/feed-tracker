@@ -4,6 +4,13 @@
 
 `feed-tracker` is an asynchronous Python project for tracking Atom/RSS feeds, with a focus on monitoring the OpenAI status feed. It is designed for extensibility and can be adapted to track other feeds by subclassing the base tracker classes.
 
+### Sample Output
+```text
+[2025-08-22T23:12:44.895Z] OpenAI : Elevated API errors and latencies
+Incident Link: https://status.openai.com//incidents/01K39H0SBZ3GDWCK3MGKE6QR3G
+Affected components: ['Audio (Operational)', 'Embeddings (Operational)']
+```
+
 ## Project Structure
 
 ```
